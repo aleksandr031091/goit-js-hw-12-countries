@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[0],{L1EO:function(n,t,o){},QfWi:function(n,t,o){"use strict";o.r(t);o("L1EO"),o("jffb"),o("JBxO"),o("FdtR");var r=function(){return fetch("https://restcountries.eu/rest/v2/all").then((function(n){return n.json()}))};o("ja5L"),o("mLDU");r()},ja5L:function(n,t){n.exports=function(){return""}},mLDU:function(n,t){n.exports=function(){return""}}},[["QfWi",1,2]]]);
+//# sourceMappingURL=main.23b9ca77d9e7b34bebbe.js.map
