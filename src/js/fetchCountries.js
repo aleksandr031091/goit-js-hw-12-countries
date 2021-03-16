@@ -1,7 +1,12 @@
-function fetchCountries() {
-  const url = 'https://restcountries.eu/rest/v2/all';
+function fetchCountries(countries) {
+  const url = `https://restcountries.eu/rest/v2/name/${countries}`;
 
-  return fetch(url).then(response => console.log(response));
+  return fetch(url).then(response => {
+    if (response.ok) {
+      return response.json();
+    }
+    throw new Error('not found');
+  });
 }
 
 export default fetchCountries;
